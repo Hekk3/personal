@@ -1,0 +1,38 @@
+/* ============= */
+/* include fonts  */
+
+@import url(../fonts/stylesheet.css);
+
+/* include fonts  */
+/* ============= */
+
+
+/* =========== */
+/* main blocks */
+
+body,
+html {
+  overflow-x: hidden;
+}
+
+.container {
+
+}
+
+/* main blocks */
+/* =========== */
+
+
+/* ==== */
+/* vars */
+
+:root {
+  --font-dis: 'SF UI Display', sans-serif;
+  --color-white: #fff;
+  --color-black: #000;
+  --color-blue-light: #0B1F2A;
+  --color-blue-dark: #0d161b;
+}
+
+/* vars */
+/* ==== */

@@ -3,11 +3,32 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/vendor/reset.css">
+  <link rel="stylesheet" href="css/vendor/options.css">
   <link rel="stylesheet" href="css/app.css">
   <title>Personal Cabinet</title>
 </head>
 <body>
-  <header class="header"></header>
+  <main class="main">
+    <section class="main-left"></section>
+    <section class="main-right">
+      <header class="header">
+        <div class="header__left">
+          <div class="header__profile">
+            <div class="header__profile-imgs">
+              <img src="img/user.svg" alt="" class="header__profile-img">
+              <img src="img/user-vip.svg" alt="" class="header__profile-img_vip">
+            </div>
+            <div class="header__profile-block">
+              <p class="header__profile-name">Александр Орловский</p>
+              <p class="header__profile-status">free</p>
+            </div>
+          </div>
+        </div>
+        <div class="header__right"></div>
+      </header>
+    </section>
+  </main>
   <script src="js/app.js"></script>
 </body>
 </html>
