@@ -4,12 +4,14 @@
 body,
 html {
   overflow-x: hidden;
-  height: 100%;
+  height: auto;
   background: var(--color-blue-light);
 }
 
 .container {
-
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 40px 0 30px;
 }
 
 /* main blocks */
@@ -33,6 +35,14 @@ html {
 
 /* ======= */
 /* general */
+
+.title {
+  font-family: var(--font-dis);
+  font-weight: 600;
+  font-size: 26px;
+  line-height: 31px;
+  color: var(--color-white);
+}
 
 .color-gradient {
   background-color: #e8c862;
