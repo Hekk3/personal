@@ -55,4 +55,71 @@ window.onload = function() {
       document.execCommand("copy");
     });
   }
+
+
+  // swipers
+  // =======
+
+  let lumitySlider1 = new Swiper('.slider-1 .swiper-container', {
+    slidesPerView: 'auto',
+    spaceBetween: 30,
+
+    navigation: {
+      nextEl: '.slider-1 .lumity__slider-next',
+      prevEl: '.slider-1 .lumity__slider-prev',
+    },
+
+    breakpoints: {
+
+      320: {
+        spaceBetween: 15
+      },
+
+      768: {
+        spaceBetween: 30
+      },
+    }
+  });
+
+  let lumitySlider2 = new Swiper('.slider-2 .swiper-container', {
+    slidesPerView: 'auto',
+    spaceBetween: 30,
+
+    navigation: {
+      nextEl: '.slider-2 .lumity__slider-next',
+      prevEl: '.slider-2 .lumity__slider-prev',
+    },
+
+    breakpoints: {
+
+      320: {
+        spaceBetween: 15
+      },
+
+      768: {
+        spaceBetween: 30
+      },
+    }
+  });
+
+  let lumitySlider3 = new Swiper('.slider-3 .swiper-container', {
+    slidesPerView: 'auto',
+    spaceBetween: 30,
+
+    navigation: {
+      nextEl: '.slider-3 .lumity__slider-next',
+      prevEl: '.slider-3 .lumity__slider-prev',
+    },
+
+    breakpoints: {
+
+      320: {
+        spaceBetween: 15
+      },
+
+      768: {
+        spaceBetween: 30
+      },
+    }
+  });
 }

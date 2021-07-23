@@ -3,6 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/vendor/swiper-bundle.min.css">
   <link rel="stylesheet" href="fonts/stylesheet.css">
   <link rel="stylesheet" href="css/vendor/reset.css">
   <link rel="stylesheet" href="css/vendor/options.css">
@@ -76,7 +77,7 @@
             </div>
             <span class="aside__link-span">Инструменты</span>
           </a>
-          <a href="#" class="aside__link active">
+          <a href="#" class="aside__link">
             <div class="aside__link-img">
               <img src="img/shop.svg" alt="">
               <img src="img/shop-gold.svg" alt="" class="aside__link-img-gold">
@@ -131,118 +132,93 @@
         </div>
       </header>
       <div class="wrapper">
-        <section class="shop">
-          <div class="shop__content container">
-            <div class="shop__heading">
-              <h2 class="shop__title title">Магазин</h2>
-              <ul class="shop__heading-list">
-                <li class="shop__heading-item"><a href="#" class="shop__heading-link color-gradient active">одежда</a></li>
-                <li class="shop__heading-item"><a href="#" class="shop__heading-link color-gradient">аксессуары</a></li>
-                <li class="shop__heading-item"><a href="#" class="shop__heading-link color-gradient">туры</a></li>
-              </ul>
+        <section class="open">
+          <div class="open__content container">
+            <a href="#" class="open__back">
+              <img src="img/open-back.svg" alt="" class="open__back-img">
+              <span class="open__back-text color-gradient">Все инструменты</span>
+            </a>
+            <h2 class="open__title title">Инструмент Coinswap</h2>
+            <div class="open__img-block">
+              <img src="img/inst-img.jpg" alt="" class="open__img">
+              <div class="open__text-block">
+                <p class="open__text">CoinSwap Space предоставляет набор продуктов и услуг для децентрализованного финансирования, позволяя пользователям разными способами получать прибыль от своих крипто. CoinSwap, новый захватывающий DEX для Binance Smart Chain, объявил, что он будет запущен 30 апреля в 17:00 по центральноевропейскому времени. Это необычный запуск. Нет никаких предпродаж, никаких надбавок и никаких командных жетонов.</p>
+                <p class="open__text">Coinswap Space - это децентрализованная биржа, предлагающая пользователям множество различных возможностей для получения вознаграждений. CSS - это автоматический маркет-мейкер (AMM) для торговли цифровыми активами без книги заказов. </p>
+              </div>
             </div>
-            <ul class="shop__list">
-              <li class="shop__item">
-                <div class="shop__item-img-container">
-                  <img src="img/mask.jpg" alt="" class="shop__item-img">
-                  <div class="shop__item-sizes">
-                    <span class="shop__item-sizes-span">s</span>
-                    <span class="shop__item-sizes-span">m</span>
-                    <span class="shop__item-sizes-span active">l</span>
-                    <span class="shop__item-sizes-span">xl</span>
-                  </div>
+            <p class="open__text">Coinswap Space - это децентрализованная биржа, предлагающая пользователям множество различных возможностей для получения вознаграждений. CSS - это автоматический маркет-мейкер (AMM) для торговли цифровыми активами без книги заказов. Пользователи могут видеть прибыль от своей криптовалюты, предоставляя ликвидность рынку, пользуясь преимуществами множества пулов.фермы от CoinSwap, или просто использовать свою криптовалюту в игре CSS. Интеллектуальная маршрутизация используется CSS, предоставляя клиентам наилучшую возможную перестановку, проскальзывание и изменение цены.</p>
+            <p class="open__text">В экосистеме CSS существует два токена. Внесение вклада в пулы ликвидности CSS предоставит пользователям токены CSS-LP. Затем токены CSS-LP могут быть размещены в одном из различных пулов фермы CoinSwap.</p>
+          </div>
+        </section>
+        <section class="lumity">
+          <div class="lumity__content container">
+            <div class="lumity__slider slider-1">
+              <div class="lumity__slider-heading">
+                <h2 class="lumity__title title">Видео о работе данного инструмента</h2>
+                <div class="lumity__slider-buttons">
+                  <img src="img/lumity-prev.svg" alt="" class="lumity__slider-button lumity__slider-prev">
+                  <img src="img/lumity-next.svg" alt="" class="lumity__slider-button lumity__slider-next">
                 </div>
-                <div class="shop__item-block">
-                  <p class="shop__item-name">Футболка</p>
-                  <p class="shop__item-lead">Есть логотип нашего бренда</p>
-                  <div class="shop__item-dop">
-                    <span class="shop__item-price color-gradient">30 USDT</span>
-                    <a href="#" class="shop__item-dop-link"><img src="img/cart-gold.svg" alt="" class="shop__item-dop-img"></a>
-                  </div>
+              </div>
+              <div class="lumity__slider-container swiper-container">
+                <div class="lumity__slider-wrapper swiper-wrapper">
+                  <a href="#" class="lumity__slider-item swiper-slide">
+                    <div class="lumity__slider-img-container">
+                      <img src="img/lumity-slider-img.jpg" alt="" class="lumity__slider-img">
+                      <div class="lumity__slider-number">Урок #1</div>
+                      <img src="img/play.svg" alt="" class="lumity__slider-play">
+                    </div>
+                    <div class="lumity__slider-watched"></div>
+                  </a>
+                  <a href="#" class="lumity__slider-item swiper-slide">
+                    <div class="lumity__slider-img-container">
+                      <img src="img/lumity-slider-img.jpg" alt="" class="lumity__slider-img">
+                      <div class="lumity__slider-number">Урок #2</div>
+                      <img src="img/play.svg" alt="" class="lumity__slider-play">
+                    </div>
+                    <div class="lumity__slider-watched"></div>
+                  </a>
+                  <a href="#" class="lumity__slider-item swiper-slide">
+                    <div class="lumity__slider-img-container">
+                      <img src="img/lumity-slider-img.jpg" alt="" class="lumity__slider-img">
+                      <div class="lumity__slider-number">Урок #3</div>
+                      <img src="img/play.svg" alt="" class="lumity__slider-play">
+                    </div>
+                    <div class="lumity__slider-watched"></div>
+                  </a>
+                  <a href="#" class="lumity__slider-item swiper-slide">
+                    <div class="lumity__slider-img-container">
+                      <img src="img/lumity-slider-img.jpg" alt="" class="lumity__slider-img">
+                      <div class="lumity__slider-number">Урок #4</div>
+                      <img src="img/play.svg" alt="" class="lumity__slider-play">
+                    </div>
+                    <div class="lumity__slider-watched"></div>
+                  </a>
+                  <a href="#" class="lumity__slider-item swiper-slide">
+                    <div class="lumity__slider-img-container">
+                      <img src="img/lumity-slider-img.jpg" alt="" class="lumity__slider-img">
+                      <div class="lumity__slider-number">Урок #5</div>
+                      <img src="img/play.svg" alt="" class="lumity__slider-play">
+                    </div>
+                    <div class="lumity__slider-watched"></div>
+                  </a>
+                  <a href="#" class="lumity__slider-item swiper-slide">
+                    <div class="lumity__slider-img-container">
+                      <img src="img/lumity-slider-img.jpg" alt="" class="lumity__slider-img">
+                      <div class="lumity__slider-number">Урок #6</div>
+                      <img src="img/play.svg" alt="" class="lumity__slider-play">
+                    </div>
+                    <div class="lumity__slider-watched"></div>
+                  </a>
                 </div>
-              </li>
-              <li class="shop__item">
-                <div class="shop__item-img-container">
-                  <img src="img/mask.jpg" alt="" class="shop__item-img">
-                  <div class="shop__item-sizes">
-                    <span class="shop__item-sizes-span">s</span>
-                    <span class="shop__item-sizes-span">m</span>
-                    <span class="shop__item-sizes-span active">l</span>
-                    <span class="shop__item-sizes-span">xl</span>
-                  </div>
-                </div>
-                <div class="shop__item-block">
-                  <p class="shop__item-name">Футболка</p>
-                  <p class="shop__item-lead">Есть логотип нашего бренда</p>
-                  <div class="shop__item-dop">
-                    <span class="shop__item-price color-gradient">30 USDT</span>
-                    <a href="#" class="shop__item-dop-link"><img src="img/cart-gold.svg" alt="" class="shop__item-dop-img"></a>
-                  </div>
-                </div>
-              </li>
-              <li class="shop__item">
-                <div class="shop__item-img-container">
-                  <img src="img/mask.jpg" alt="" class="shop__item-img">
-                  <div class="shop__item-sizes">
-                    <span class="shop__item-sizes-span">s</span>
-                    <span class="shop__item-sizes-span">m</span>
-                    <span class="shop__item-sizes-span active">l</span>
-                    <span class="shop__item-sizes-span">xl</span>
-                  </div>
-                </div>
-                <div class="shop__item-block">
-                  <p class="shop__item-name">Футболка</p>
-                  <p class="shop__item-lead">Есть логотип нашего бренда</p>
-                  <div class="shop__item-dop">
-                    <span class="shop__item-price color-gradient">30 USDT</span>
-                    <a href="#" class="shop__item-dop-link"><img src="img/cart-gold.svg" alt="" class="shop__item-dop-img"></a>
-                  </div>
-                </div>
-              </li>
-              <li class="shop__item">
-                <div class="shop__item-img-container">
-                  <img src="img/mask.jpg" alt="" class="shop__item-img">
-                  <div class="shop__item-sizes">
-                    <span class="shop__item-sizes-span">s</span>
-                    <span class="shop__item-sizes-span">m</span>
-                    <span class="shop__item-sizes-span active">l</span>
-                    <span class="shop__item-sizes-span">xl</span>
-                  </div>
-                </div>
-                <div class="shop__item-block">
-                  <p class="shop__item-name">Футболка</p>
-                  <p class="shop__item-lead">Есть логотип нашего бренда</p>
-                  <div class="shop__item-dop">
-                    <span class="shop__item-price color-gradient">30 USDT</span>
-                    <a href="#" class="shop__item-dop-link"><img src="img/cart-gold.svg" alt="" class="shop__item-dop-img"></a>
-                  </div>
-                </div>
-              </li>
-              <li class="shop__item">
-                <div class="shop__item-img-container">
-                  <img src="img/mask.jpg" alt="" class="shop__item-img">
-                  <div class="shop__item-sizes">
-                    <span class="shop__item-sizes-span">s</span>
-                    <span class="shop__item-sizes-span">m</span>
-                    <span class="shop__item-sizes-span active">l</span>
-                    <span class="shop__item-sizes-span">xl</span>
-                  </div>
-                </div>
-                <div class="shop__item-block">
-                  <p class="shop__item-name">Футболка</p>
-                  <p class="shop__item-lead">Есть логотип нашего бренда</p>
-                  <div class="shop__item-dop">
-                    <span class="shop__item-price color-gradient">30 USDT</span>
-                    <a href="#" class="shop__item-dop-link"><img src="img/cart-gold.svg" alt="" class="shop__item-dop-img"></a>
-                  </div>
-                </div>
-              </li>
-            </ul>
+              </div>
+            </div>
           </div>
         </section>
       </div>
     </section>
   </main>
+  <script src="js/vendor/swiper-bundle.min.js"></script>
   <script src="js/app.js"></script>
 </body>
 </html>
