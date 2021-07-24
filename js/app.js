@@ -26,16 +26,19 @@ window.onload = function() {
     }
 
     function mainMenuAddActive() {
+
       mainMenu.classList.add('active');
       blur.classList.add('active');
     }
 
     function mainMenuRemoveActive() {
+
       mainMenu.classList.remove('active');
       blur.classList.remove('active');
     }
 
     window.addEventListener('resize', function() {
+
       headerInit();
     });
 
